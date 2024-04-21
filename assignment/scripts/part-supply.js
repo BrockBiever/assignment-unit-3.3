@@ -13,7 +13,7 @@ console.log(partsNeeded)
 //    the following numbers: 3, 5, -6, 0, 7, 11.
 console.log('2. Create supplyChanges:');
 
-let supplyChanges[3, 5, -6, 0, 7, 11] ;
+let supplyChanges=[3, 5, -6, 0, 7, 11] ;
 
 // 3. Create a variable called 'secondItem' and assign it the value of the second
 //    item in the 'supplyChanges' array.
@@ -40,16 +40,13 @@ supplyChanges.push(25);
 //      - If the value is a zero, push it into the 'zeroes' array.
 console.log('6. Looping through supplyChanges to populate arrays with positive, negative, and zero values:');
 
-let positives ; 
-let negatives ; 
-let zeros ; 
 
-positives[supplyChanges[0], secondValue, supplyChanges[4], supplyChanges[5]];
+let positives = [supplyChanges[0], secondValue, supplyChanges[4], supplyChanges[5]];
 
-negatives[supplyChanges[2]] ; 
-zeros[supplyChanges[3]] ; 
+let negatives = [supplyChanges[2]] ; 
+let zeros = [supplyChanges[3]] ; 
 
-for(supplyChanges) ; 
+for(let i=0; i <= supplyChanges.length; i++) ; 
 console.log(positives) ; 
 console.log(negatives)  ;
 console.group(zeros) ; 
@@ -59,9 +56,9 @@ console.group(zeros) ;
 //    'stretchNegatives', and 'stretchZeroes'. 
 console.log('7. Looping through supplyChanges to populate more arrays with positive, negative, and zero values:');
 
-let stretchPositives[supplyChanges[0], secondValue, supplyChanges[4], supplyChanges[5]] ; 
-let stretchNegatives[supplyChanges[2]] ;
-let stretchZeroes[supplyChanges[3]] ; 
+let stretchPositives = [supplyChanges[0], secondValue, supplyChanges[4], supplyChanges[5]] ; 
+let stretchNegatives = [supplyChanges[2]] ;
+let stretchZeroes = [supplyChanges[3]] ; 
 for(stretchPositives; stretchNegatives; stretchZeroes) ; 
 
 // 8. Create a variable called 'totalParts' and assign it a value of 0.
@@ -69,7 +66,7 @@ for(stretchPositives; stretchNegatives; stretchZeroes) ;
 //    array to the 'totalParts' variable.
 console.log('8. Looping through supplyChanges to calculate the sum:');
 let totalParts = 0 ; 
-for(supplyChanges)+totalParts ; 
+for(let i = 0; i <= supplyChanges.length; i++)+totalParts ; 
 
 // 9. We have a large stash of parts in our warehouse that we 
 //    need to box up and get ready for shipment. There are 572
@@ -85,7 +82,7 @@ for(supplyChanges)+totalParts ;
 console.log('9. Filling boxes with a "while" loop');
 let parts = 572 ; 
 let boxesFilled = 0 ;
-for(parts>=0; parts-7; boxesFilled++ ; boxesFilled<=81)
+for(parts>=0; parts-7, boxesFilled<=81 ; boxesFilled++ )
 
 
 
